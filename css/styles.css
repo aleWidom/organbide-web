@@ -1,0 +1,251 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: rgb(56, 56, 56);
+}
+
+.container-header-h1 {
+    background-color: rgb(35, 103, 206);
+    padding: 18px;
+}
+
+.header-h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.header-nav {
+    text-align: center;
+}
+
+.header-menu {
+    text-align: center;
+}
+
+.header-logo, .header-menu {
+    margin: 18px 0px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+    font-weight: 700;
+}
+
+.enlaces-menu {
+    text-decoration: none;
+    color: rgb(35, 103, 206);
+    font-size: 14px;
+ 
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.contenedor-parrafo {
+    padding: 9px 18px ;
+}
+
+.coaching {
+    background-color: rgb(106, 165, 253);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    font-size: 18px;
+}
+
+
+.span {
+    color: rgb(35, 103, 206);
+    font-weight: 700;
+    padding: 24px 0px;
+    font-size: 16px;
+}
+
+
+.container-tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.tarjetas {
+    border: solid 1px rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 12px 12px;
+    padding: 12px;
+}
+
+
+.tarjetas img {
+    width: 50%;
+}
+
+.tarjetas p {
+    text-align: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+ul li  {
+    list-style: none;
+    padding: 18px;
+}
+
+.destacado {
+    color:  rgb(35, 103, 206);
+    font-weight: bold;
+}
+
+
+
+.negrita {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.no-recomendado {
+    color:  rgb(204, 38, 9);
+}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+
+.container-section-personal-profesional {
+    background-color: rgb(106, 165, 253);
+    padding: 18px;
+    width: 100%;
+}
+
+
+
+.container-section-personal-profesional h2 {
+   font-size: 18px;
+}
+
+
+.check {
+    color:   rgb(106, 165, 253);
+}
+
+.not {
+    color:  rgb(204, 38, 9);
+}
+
+
+.que-es {
+    margin-top: 40px;
+}
+
+
+.h3 {
+    padding: 6px;
+    margin: 0px;
+}
+
+
+.h4 {
+    padding: 6px;
+    margin: 0px;
+    color: rgb(151, 151, 151);
+}
+
+.subtitulos {
+    color: rgb(106, 165, 253);
+}
+
+.iconos-coaching {
+    margin-top: 18px;
+}
+
+.imgenes-sobre-mi {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-kocs {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-kocs img {
+    width: 75%;
+}
+
+footer p {
+    background-color: rgb(35, 103, 206);
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+    .container-tarjetas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    .tarjetas {
+        border: solid 1px rgb(156, 156, 156);
+        flex: 1 1 42%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imgenes-sobre-mi {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imgenes-sobre-mi img {
+        width: 50%;
+    }
+
+    .contenedor-kocs img {
+        width: 30%;
+    }
+    
+}
+
+
+
+@media (min-width: 1024px) {
+
+    .tarjetas {
+        border: solid 1px rgb(156, 156, 156);
+        flex: 1 1 28%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    
+}
+
+
