@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
@@ -26,118 +26,103 @@
             <!-- Navegador -->
             <nav class="header-nav">
                 <div class="header-logo">
-                    <a href="index.html" class="logo">Angel María Orgambide</a>
+                    <a href="index.html" class="logo">Ángel María Organbide</a>
                 </div>
                 <div class="header-menu">
-                    <a href="index.html" class="enlaces-menu">Inicio</a>
+                    <a href="index.html" class="enlaces-menu" id="index">Inicio</a>
                     <span>|</span>
-                    <a href="sobre-mi.html" class="enlaces-menu">Sobre Mí</a>
+                    <a href="sobre-mi.html" class="enlaces-menu" id="sobre-mi">Sobre Mí</a>
                     <span>|</span>
-                    <a href="coaching.html" class="enlaces-menu">¿Que es el coaching?</a>
+                    <a href="coaching.html" class="enlaces-menu" id="coaching">¿Que es el coaching?</a>
                     <span>|</span>
-                    <a href="contacto.html" class="enlaces-menu">Contacto</a>
+                    <br>
+                    <a href="coaching-personal.html" class="enlaces-menu" id="personal">Coaching Personal</a>
+                    <span>|</span>
+                    <a href="coaching-organizacional.html" class="enlaces-menu" id="organizacional">Coaching Organizacional</a>
+                    <span>|</span>
+                  <!--   <a href="blog.html" class="enlaces-menu">Blog</a>
+                    <span>|</span> -->
+                    <a href="contacto.html" class="enlaces-menu" id="contacto">Contacto</a>
                 </div>
             </nav>
-
             <!-- img -->
-            <div class="imgenes-sobre-mi">
-                <img src="img/donostia-san-sebastian.jpg" alt="donostia-san-sebastian">
-                <img src="img/bilbao.jpg" alt="bilbao">
+            <div class="imagenes-sobre-mi">
+                <img src="img/bilbao-donostia.jpg" alt="bilbao-donostia-san-sebastian" class="bilbao-donostia">
             </div>
 
         </header>
 
 
-        <!-- pequeña-descripción -->
-    <!--     <section class="section">
-            <div class="contenedor-parrafo">
-                <p>“Muchas veces lo más valioso está oculto a nuestros ojos. Acercarse a lo que ya conocemos con espíritu abierto puede ayudarnos a descubrir mucho más.”</p>
-                <p>“Mi propósito no es impartir conocimientos o dar explicaciones, sino hacer preguntas que permitan explorar cosas que previamente no te habías planteado.”</p>
-            </div>
-        </section>
- -->
-
-              <!--   Curiosidades -->
-        <section class="section">
-            <div class="container-section-personal-profesional">
-                <h2 class="coaching">ALGUNAS CURIOSIDADES SOBRE MI</h2>
-            </div>
-            <ul>
-                <li><i class="fas fa-check-circle check"></i> Nací a mitad de camino entre dos capitales del País Vasco, Bilbao y San Sebastián,  cerca también de Pamplona , Vitoria y Baiona.</li>
-                <li><i class="fas fa-check-circle check"></i> Desde hace más  de 20 años que vivo en Argentina..</li>
-                <li><i class="fas fa-check-circle check"></i> Siempre intento dar  lo mejor de mí. Haber trabajado en empresas con personas de diferentes edades y culturas diferentes me han ayudado a mejorar mi formación personal.</li>
-                <li><i class="fas fa-check-circle check"></i> Valoro  mucho la <span class="negrita">CONFIANZA</span> la Sinceridad, el ser Competente en lo que uno hace, la Confiabilidad  en las relaciones y la Coherencia  en las acciones.</li>
-                <li><i class="fas fa-check-circle check"></i> Padre de Mikel e Iñaki, su madre Rosana fue el motivo por el cual vivo en Argentina.</li>       
-            </ul>
-        </section> 
-
-        <!-- porque elegirme -->
-         <section class="section">
-            <div class="container-section-personal-profesional">
-                <h2 class="coaching">¿PORQUE ELEGIRME A MI PARA TU TRANSFORMACIÓN?</h2>
-            </div>
-            <div class="contenedor-parrafo">
-                <p>Soy coach certificado (AACOP / FICOP), Licenciado en Psicología y con más de 30 años de actividad, en
-                    el sector comercial de diferentes rubros, 
-                    comercial, jefe de ventas, director comercial y fundador de varias empresas.</p>
-                <p>Mi saber, mi experiencia y mis ganas de aprender están a tu servicio. Mi compromiso es acompañarte en
-                    tu transformación para que consigas tus objetivos. Los TIEMPOS los pones vos.</p>
-                <p>Mis sesiones son en un ámbito de confidencialidad al 100.</p>
-                <p>Mi satisfacción es acompañarte y ver tu crecimiento. Tu satisfacción por los logros que vas
-                    consiguiendo son mi alegría que acrecienta mi pasión por entregar lo mejor de mí al otro.</p>
-                <p>Te acompañaré con mi escucha y mis preguntas para que con tus reflexiones encuentres el camino que te
-                    lleve desde el inicio de la sesión a donde te gustaría estar al finalizar la misma.</p>
-                <p>Tú serás quien decida en todo momento que deseas hacer con nuestro ámbito de diálogo</p>
-            </div>
-        </section> 
-
-             <!-- como trabajo? -->
-             <section class="section">
+        <!--   Curiosidades -->
+       <div class="container-sobre-mi">
+        <div class="sobre-mi">
+            <section class="section">
+                
+               <div class="list-sobre-mi">
                 <div class="container-section-personal-profesional">
-                    <h2 class="coaching">¿COMO TRABAJO?</h2>
+                    <h2 class="coaching">ALGUNAS CURIOSIDADES SOBRE MI</h2>
                 </div>
                 <ul>
-                    <li><i class="fas fa-check-circle check"></i> Sesiones semanales o quincenales según cada caso de 50
-                        minutos.
-                    </li>
-                    <li><i class="fas fa-check-circle check"></i> La planificación del proceso de coaching depende de tu
-                        implicación y de los temas de los cuales desees conversar. Recomiendo entre cinco a siete sesiones.
-                    </li>
-                    <li><i class="fas fa-check-circle check"></i> Las sesiones las podes elegir según tu necesidad: on-line,
-                        vía
-                        Zoom, Skype… o presenciales.
-                        <h4>¿Que Elegir?</h4>
+                    <li><i class="fas fa-check-circle check"></i> Nací a mitad de camino entre dos capitales del País Vasco, Bilbao y San Sebastián, cerca también de Pamplona, Vitoria y Baiona.</li>
+                    <li><i class="fas fa-check-circle check"></i> Desde hace más de 20 años que vivo en Argentina.</li>
+                    <li><i class="fas fa-check-circle check"></i> Siempre intento dar lo mejor de mí. Haber trabajado en empresas con personas de diferentes edades y culturas diferentes me han ayudado a mejorar mi formación personal.</li>
+                    <li><i class="fas fa-check-circle check"></i> Valoro mucho la <span class="negrita">CONFIANZA</span>, la Sinceridad, el ser Competente en lo que uno hace, la Confiabilidad en las relaciones y la Coherencia en las acciones.</li>
+                    <li><i class="fas fa-check-circle check"></i> Padre de Mikel e Iñaki, su madre Rosana fue el motivo por el cual vivo en Argentina.</li>
+                </ul>
+               </div>
+            </section>
+    
+            <!-- porque elegirme -->
+            <section class="section">
+                <div class="contenedor-parrafo porque">
+                    <div class="container-section-personal-profesional">
+                        <h2 class="coaching">¿POR QUÉ ELEGIRME A MI PARA TU TRANSFORMACIÓN?</h2>
+                    </div>
+                    <p> Soy coach certificado (AACOP / FICOP) y Licenciado en Psicología por la Universidad del País Vasco.</p> 
+                    <p> Mi saber, mi experiencia y mis ganas de aprender están a tu servicio. Mi compromiso es acompañarte en tu transformación para que consigas tus objetivos. Los TIEMPOS los ponés vos.</p> 
+                    <p> Mis sesiones son en un ámbito de confidencialidad al 100%.</p> 
+                    <p> Tu satisfacción por los logros que vas consiguiendo son mi alegría que acrecienta mi pasión por entregar lo mejor de mí al otro.</p> 
+                    <p> Te acompañaré con mi escucha y mis preguntas para que con tus reflexiones encuentres el camino que te lleve desde el inicio de la sesión a donde te gustaría estar al finalizar la misma.</p> 
+                    <p> Vos serás quien decida en todo momento qué deseas hacer con nuestro ámbito de diálogo.</p>
+                </div>
+            </section>
+    
+            <!-- como trabajo? -->
+            <section class="section">
+               <div class="como">
+                <ul>
+                    <div class="container-section-personal-profesional">
+                        <h2 class="coaching">¿CÓMO TRABAJO?</h2>
+                    </div>
+                    <li><i class="fas fa-check-circle check"></i> Sesiones semanales o quincenales según cada caso de 50 minutos.</li>
+                    <li><i class="fas fa-check-circle check"></i> La planificación del proceso de coaching depende de tu implicación y de los temas de los cuales desees conversar. Recomiendo de cinco a siete sesiones.</li>
+                    <li><i class="fas fa-check-circle check"></i> Las sesiones las podés elegir según tu necesidad: on-line, vía Zoom, Skype… o presenciales. 
+                        <h4>¿Qué Elegir?</h4>
                         <ul>
-                            <li><i class="fas fa-check-circle check"></i><span class="span"> On line:</span> Ahorrarás
-                                tiempo en
-                                desplazamientos, Escogerás un sitio que sea cómodo para ti y que se adapte a tu estilo de
-                                vida (viajes de trabajo, flexibilidad horaria…) </li>
-                            <li><i class="fas fa-check-circle check"></i><span class="span"> Presencial:</span> La escucha
-                                es más
-                                completa, dado que además de escuchar tus palabras, escucho tu corporalidad y las emociones
-                                que solemos transmitir. Conversar presencialmente con vos, me facilita interpretar detalles
-                                que muchas veces en el diálogo on line, al no percibirlos, y al no ser escuchados no te los
-                                puedo devolver en modo pregunta para tu reflexión, perdiendo de esta forma posibilidad de
-                                realizar otras acciones.
-                            </li>
+                            <li><i class="fas fa-check-circle check"></i><span class="span"> On line:</span> Ahorrarás tiempo en desplazamientos, escogerás un sitio que sea cómodo para ti y que se adapte a tu estilo de vida (viajes de trabajo, flexibilidad horaria…).</li>
+                            <li><i class="fas fa-check-circle check"></i><span class="span"> Presencial:</span> La escucha y la relación interpersonal es más plena. Conversar presencialmente facilita el diálogo, desde lo verbal, emocional y corporal.</li>
                         </ul>
                     </li>
                 </ul>
-            </section> 
+               </div>
+            </section>
+           </div>
+       </div>
 
         <div class="contenedor-parrafo">
-            <p class="negrita">“Solo eres libre cuando te das cuenta de que no perteneces a ningún lugar, de que perteneces a todos los lugares y a ninguno”. 
-            <br> <span class="destacado">Maya Angelou (1928-2014).</span></p>
+            <p class="negrita">“Solo eres libre cuando te das cuenta de que no perteneces a ningún lugar, de que perteneces a todos los lugares y a ninguno”.
+                <br> <span class="destacado">Maya Angelou (1928-2014).</span></p>
         </div>
 
 
 
-    <footer class="container-footer">
-        <p class="footer-p">&copy Angel María Orgambide</p>
-    </footer>
+        <footer class="container-footer">
+            <p class="footer-p">&copy Angel María Orgambide</p>
+        </footer>
 
 
     </main>
+    <script src="js/sobre-mi.js"></script>
 </body>
 
 </html>

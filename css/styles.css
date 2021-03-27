@@ -5,16 +5,19 @@ html {
     color: rgb(56, 56, 56);
 }
 
+
 .container-header-h1 {
-    background-color: rgb(35, 103, 206);
     padding: 18px;
+    background-color: rgb(106, 165, 253);
 }
 
 .header-h1 {
-    color: rgb(255, 255, 255);
+    background-color: rgb(106, 165, 253);
+    color: #fff;
     text-align: center;
     margin: 0px;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .header-nav {
@@ -40,8 +43,12 @@ html {
     text-decoration: none;
     color: rgb(35, 103, 206);
     font-size: 14px;
- 
 }
+
+.enlaces-menu:hover {
+    color: rgb(106, 165, 253);
+}
+
 
 .section {
     display: flex;
@@ -55,12 +62,10 @@ html {
 }
 
 .coaching {
-    background-color: rgb(106, 165, 253);
-    color: rgb(255, 255, 255);
+    color:  rgb(35, 103, 206);
     text-align: center;
-    width: 100%;
-    margin: 0px;
-    font-size: 18px;
+    width: 90%;
+    font-size: 16px;
 }
 
 
@@ -79,24 +84,28 @@ html {
 }
 
 .tarjetas {
-    border: solid 1px rgb(156, 156, 156);
+    border: solid 1px rgb(209, 209, 209);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 12px 12px;
+    margin: 3px 6px 3px 6px;
     padding: 12px;
 }
 
 
 .tarjetas img {
-    width: 50%;
+    width: 75%;
+}
+
+.organizacional img {
+    width: 40%;
 }
 
 .tarjetas p {
     text-align: center;
 }
 
-ul {
+ ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -105,10 +114,10 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-
+ 
 ul li  {
     list-style: none;
-    padding: 18px;
+    padding: 18px 18px 0px 18px;
 }
 
 .destacado {
@@ -133,9 +142,10 @@ ul li  {
 
 
 .container-section-personal-profesional {
-    background-color: rgb(106, 165, 253);
-    padding: 18px;
     width: 100%;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -193,16 +203,60 @@ ul li  {
     width: 75%;
 }
 
+
+
+.footer-esp-contacto {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
 footer p {
     background-color: rgb(35, 103, 206);
     color: #fff;
     text-align: center;
-    padding: 18px;
+    padding: 18px; 
 }
+
+
+.icono {
+    color: rgb(105, 108, 112);
+    font-size: 27px;
+    padding: 10px;
+}
+
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+
+.redes i:hover {
+    color: rgb(149, 149, 149);
+}
+
+.mail {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.list-sobre-mi {
+    width: 100%;
+}
+
+.container-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 /* Media Queries */
 
-@media (min-width: 768px) {
+@media (min-width: 650px) {
+
 
     .container-tarjetas {
         display: flex;
@@ -212,8 +266,8 @@ footer p {
 
 
     .tarjetas {
-        border: solid 1px rgb(156, 156, 156);
-        flex: 1 1 42%;
+        border: solid 1px rgb(209, 209, 209);
+        flex: 1 1 40%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -222,6 +276,7 @@ footer p {
     .imgenes-sobre-mi {
         display: flex;
         flex-direction: row;
+        width: 50%;
     }
 
     .imgenes-sobre-mi img {
@@ -229,8 +284,17 @@ footer p {
     }
 
     .contenedor-kocs img {
-        width: 30%;
+        width: 50%;
     }
+
+    
+    .footer-esp-contacto {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
     
 }
 
@@ -238,14 +302,128 @@ footer p {
 
 @media (min-width: 1024px) {
 
+    .contenedor-kocs img {
+        width: 30%;
+    }
+    
+    .container-tarjetas {
+     width: 80%;
+}
+
     .tarjetas {
-        border: solid 1px rgb(156, 156, 156);
-        flex: 1 1 28%;
+        border: solid 1px rgb(209, 209, 209);
+        flex: 1 1 24%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }    
+
+    .index {
+        background-color: rgba(106, 165, 253);
+        width: 65%;
+        color: #fff;
+        margin: -50px 10px 10px 0px;
+        padding: 20px;
+        z-index: 1;
+        box-shadow: 10px 10px 20px #aaaaaa;
+    }
+
+    .contenedor-index {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pais-vasco {
+        width: 80%;
+    }
+
+    .imagenes-sobre-mi {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bilbao-donostia {
+        width: 80%;
+    }
+
+    .container-sobre-mi {
+        display: flex;
+        justify-content: center;
+    
+
+    }
+
+    .sobre-mi { 
+        width: 80%;
+        margin-top: 10px;
+        align-items: flex-start;
+       
+  
+    }
+
+    .list-sobre-mi {
+        margin: 0px 5px 0px 0px;
+    }
+
+    .porque {
+        margin: 0px 5px;
+        padding-top: 0px;
+    }
+    
+    .como {
+        margin: 0px 0px 0px 5px;
+    }
+
+    .negrita {
+        text-align: center;
+    }
+
+    .container-coaching {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-coaching {
+        width: 80%;
+    }
+
+
+    .footer-esp {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    
+    .footer-esp-contacto {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
     
 }
 
 
+@media (min-width: 1400px) {
+    .bilbao-donostia {
+        width: 60%;
+    }
+
+
+    .sobre-mi { 
+        width: 60%;
+        margin-top: 10px;
+        align-items: flex-start;
+       
+  
+    }
+
+    .contenedor-coaching {
+        width: 60%;
+    }
+
+}
+
+
+ 
