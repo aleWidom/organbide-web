@@ -5,6 +5,17 @@ html {
     color: rgb(56, 56, 56);
 }
 
+p {
+    margin-bottom: 0px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 
 .container-header-h1 {
     padding: 18px;
@@ -203,14 +214,6 @@ ul li  {
     width: 75%;
 }
 
-
-
-.footer-esp-contacto {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-
 footer p {
     background-color: rgb(35, 103, 206);
     color: #fff;
@@ -253,6 +256,8 @@ footer p {
 
 
 
+
+
 /* Media Queries */
 
 @media (min-width: 650px) {
@@ -286,15 +291,6 @@ footer p {
     .contenedor-kocs img {
         width: 50%;
     }
-
-    
-    .footer-esp-contacto {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-
-
     
 }
 
@@ -386,22 +382,7 @@ footer p {
     .contenedor-coaching {
         width: 80%;
     }
-
-
-    .footer-esp {
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
-
-    
-    .footer-esp-contacto {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-
-    
+      
 }
 
 
